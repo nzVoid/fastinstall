@@ -27,4 +27,12 @@ sudo apt install python3-pip
 #speedtest-cli
 sudo apt install speetest-cli
 
+#palemoon	
+sudo add-apt-repository 'deb http://kovacsoltvideo.hu/moonchildproductions/ ./'
+wget -q http://kovacsoltvideo.hu/moonchildproductions/public.gpg -O- | sudo apt-key add -
+sudo apt update
+sudo apt install palemoon
+
+
+
 
